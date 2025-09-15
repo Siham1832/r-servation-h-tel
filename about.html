@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <style>
+       body{
+          background-color: #F9FAFF;
+        }
+        .imagAbout1{
+            width: 524px;
+            height: 524px;
+            top: 94px;
+            left: 796px;
+        }
+        .monI2{
+          position: absolute;
+          top: 94px;
+          right: 250px;
+          
+        }
+        .paragFooter{
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #828282;
+}
+        footer {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* bach maybanch l'image 3la 3ali */
+}
+
+.imgfooter {
+  display: block;
+  width: 100%;
+  height: auto; /* respect proportions */
+}
+nav a:hover{
+     text-decoration: underline;
+
+    }
+.titre1About{
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  color: #25282B;
+}
+.para1About{
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #828282;
+}
+.input {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #E8ECF4; /* خاص نزيدو solid */
+    
+}
+.formA{
+ display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+.textarea{
+  width: 400px;
+  height: 160px;
+  border-radius: 8px;
+  border: 1px #E8ECF4;
+}
+.titre2{
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: 72px;
+  font-size: 48px;
+  letter-spacing: 0%;
+
+}
+
+     </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+   
+    <a class="navbar-brand ms-3 grandTitre" href="#">My portfolio</a>
+
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav me-4">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="titre1About">About me</h1>
+                <p class="para1About">
+                    Siham  Zirari is a motivated digital development student at CMC RSK, passionate about technology, programming, and web development. With a growing interest in full-stack development
+                </p>
+                <a href="" class="btn btn-warning">Resume</a>
+            </div>
+            <div class="col-md-6">
+                <img src="imagAbout1.png" alt="" class="imagAbout1">
+                <img src="monI2.png" alt="" class="monI2">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="text-center mt-5">
+  <h2 class="titre2">Projects</h2>
+  <form class="formA mt-5">
+  <div class="mb-3 ">
+    <label for="exampleInputEmail1" class="form-label">Name</label>
+    <input type="text" class="form-control  input " id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Email</label>
+    <input type="email" class="form-control input" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <label class="form-check-label" for="exampleCheck1">Message</label>
+    <textarea name="" id="" class="form-control textarea"></textarea>
+  </div>
+  <button type="submit" class="btn btn-warning">Send</button>
+</form>
+
+  
+</section>
+ <section class="text-center mt-5">
+    <img src="ph_instagram-logo-fill.png" alt="" class="intg">
+      
+        <img src="linkdien.png" alt="" class="link">
+    
+        <img src="sms.png" alt="" class="sms">
+        <p class="paragFooter">Madelyn Torff 2023</p>
+  </section>
+  
+  <footer >
+    <img src="Vector.png"  alt="" class="imgfooter">
+
+  </footer>
+ 
+</body>
+</html>
